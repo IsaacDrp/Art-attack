@@ -69,12 +69,36 @@ button {
   background-position: center;
 }
 
+
+
+
 .header-menu{
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
 }
+
+.header .menu-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.menu-bar a{
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar a:visited{
+  color: #fff;
+}
+
+
 
 .header-menu h1{
   font-size: 3rem;
@@ -86,7 +110,11 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8rem;
-  margin-top: 1.5rem;
+  padding:1.5rem 0;
+}
+
+.links{
+  max-width: 60%;
 }
 
 .link-menu {
@@ -104,21 +132,26 @@ button {
   color: gray;
 }
 
+.contact {
+  max-width: 40%;
+}
+
 .contact h3{
   font-family: "Kanit", sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
 }
 
 .contact-wrapper{
-  margin-top: 1.5rem;
-  margin-left: 1rem;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
 }
 
 .contact-title{
   font-family: "Kanit", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .contact-content{
@@ -163,6 +196,10 @@ section {
     text-align: center;
 }
 
+section:last-of-type{
+  margin-bottom: 2rem;
+}
+
 section h3 {
     color: #003366;
     margin-bottom: 20px;
@@ -179,12 +216,6 @@ footer p {
     margin: 5px 0;
 }
 
-.header .menu-bar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.8rem;
-}
 
 
 /* BTN <icons> */
@@ -202,8 +233,6 @@ footer p {
 }
 
 /* TARJETAS */
-
-
 
 .container {
     margin: 1rem auto;
@@ -223,17 +252,15 @@ footer p {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     overflow: hidden;
+    /* background: linear-gradient(135deg, #1576BB 10%, #8497b0 100%); */
+
   }
   .container .tab input {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
   }
-  /* .container .tab input:checked ~ label::after {
-    content: "+";
-    color: #fff;
-    transform: rotate(135deg);
-  } */
+
   .container .tab input:checked ~ label h2 {
     position: absolute;
     top: 0;
@@ -270,14 +297,7 @@ footer p {
     align-items: center;
     cursor: pointer;
   }
-  /* .container .tab label::after {
-    content: "+";
-    position: absolute;
-    right: 20px;
-    font-size: 2em;
-    color: rgba(0, 0, 0, 0.1);
-    transition: transform 1s;
-  } */
+
   .container .tab label h2 {
     width: 40px;
     height: 40px;
@@ -288,6 +308,8 @@ footer p {
     font-size: 1.25em;
     border-radius: 5px;
     margin-right: 10px;
+    background: linear-gradient(135deg, #1576BB 10%, #8497b0 100%);
+
   }
   .container .tab label h3 {
     position: relative;
@@ -312,7 +334,7 @@ footer p {
     padding: 10px 0;
     color: #333;
     z-index: 10;
-    text-align: justify;
+    text-align: left;
     font-size: 1.1rem;
   }
 
@@ -320,34 +342,25 @@ footer p {
     position: relative; 
     font-size: 1rem;
     color: #333;
-    /* list-style-type: disc; */
     margin-left: 1rem;
     text-align: justify;
     font-size: 1.1rem;
-
-
 }
 
-  .container .tab:nth-child(2) label h2 {
-    background: linear-gradient(135deg, #70f570 10%, #49c628 100%);
+@media only screen and (max-width: 800px) {
+  .link-menu{
+    font-size: 2.5rem;
   }
-  .container .tab:nth-child(3) label h2 {
-    background: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
+
+  .nav-menu {
+    height: auto;
   }
-  .container .tab:nth-child(4) label h2 {
-    background: linear-gradient(135deg, #fd6e6a 10%, #ffc600 100%);
+
+  .contact {
+    max-width: 80%;
   }
-  .container .tab:nth-child(5) label h2 {
-    background: linear-gradient(135deg, #ff96f9 10%, #c32bac 100%);
 
-  }/*# sourceMappingURL=style.css.map */
-
-  @media only screen and (max-width: 800px) {
-    .link-menu{
-      font-size: 2.5rem;
-    }
-
-    .nav-menu {
-      height: auto;
-    }
+  .contact-title, .contact-content{
+    font-size: 1.2rem;
+  }
 }
