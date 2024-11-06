@@ -4,7 +4,7 @@ require 'db.php';
 
 // Redirigir si no es estudiante
 if ($_SESSION['tipo_usuario'] !== 'estudiante') {
-    header('Location: index.php');
+    header('Location: /index.php');
     exit;
 }
 
@@ -41,7 +41,7 @@ $modalidad_actual = $stmt->fetchColumn();
 // Cerrar sesión
 if (isset($_POST['logout'])) {
     session_destroy();
-    header('Location: index.php');
+    header('Location: /index.php');
     exit;
 }
 ?>

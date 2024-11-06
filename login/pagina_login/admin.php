@@ -4,7 +4,7 @@ require 'db.php';
 
 // Redirigir si no es admin
 if ($_SESSION['tipo_usuario'] !== 'admin') {
-    header('Location: index.php');
+    header('Location: /index.php');
     exit;
 }
 
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['buscar_estudiante']))
 // Cerrar sesión
 if (isset($_POST['logout'])) {
     session_destroy();
-    header('Location: index.php');
+    header('Location: /index.php');
     exit;
 }
 ?>

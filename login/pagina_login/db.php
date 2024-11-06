@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'modalidades';
-$user = 'root';
-$password = 'isaac';
+$user = 'sist_info';
+$password = 'art-attack';
 
 try {
     $conexion = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);

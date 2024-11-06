@@ -19,34 +19,19 @@
         </div>
         <div class="links-contact"> 
             <div class="links">
-                <a href="#" class="link-menu">Presentacion</a>
-                <a href="https://fesaragon.com/oferta-academica/computacion.html" target="_blank" rel="noopener noreferred" class="link-menu">Perfil Egresado</a>
-                <a href="https://www.dgae-siae.unam.mx/www_gate.php" target="_blank" rel="noopener noreferred" class="link-menu">Historial Académico</a>
-                <a href="https://www.dgae-siae.unam.mx/educacion/planes.php?acc=pde&crr=110&plt=0411" target="_blank" rel="noopener noreferred" class="link-menu">Planes de estudio</a>
+                <a href="#" class="link-menu">Perfil Egresado</a>
+                <a href="#" class="link-menu">Historial Académico</a>
+                <a href="#" class="link-menu">Estructura y serialización</a>
             </div>
             <div class="contact">
-                <h3>Visítanos en Jefatura</h3>
+                <h3>Contactos:</h3>
                 <div class="contact-wrapper">
-                    <p class="contact-title">Horario de atención</p>
-                    <p class="contact-content">De lunes a viernes de 09:00 a 15:00 h y de 17:00  a 21:00 h</p>
+                    <p class="contact-title">Titulo</p>
+                    <p class="contact-content">ejemplo@aragon.unam.mx</p>
                 </div>
                 <div class="contact-wrapper">
-                    <p class="contact-title">Jefe de Carrera</p>
-                    <p class="contact-content">Jorge Arturo Lopez Hernandez</p>
-                </div>
-                <div class="contact-wrapper">
-                    <p class="contact-title">Secretaria Técnica</p>
-                    <p class="contact-content">Ana Claudia Reyes Cruz</p>
-                </div>
-                <h3>Telefono(s)</h3>
-                <div class="contact-wrapper">
-                    <p class="contact-content">55 5623 0222</p>
-                    <p class="contact-content">Ext. 30820 y 30842</p>
-                </div>
-                <h3>Correos electrónicos</h3>
-                <div class="contact-wrapper">
-                    <p class="contact-content">computacion@aragon.unam.mx </p>
-                    <p class="contact-content">st.computacion@aragon.unam.mx </p>
+                    <p class="contact-title">Titulo</p>
+                    <p class="contact-content">ejemplo@aragon.unam.mx</p>
                 </div>
             </div>
         </div>
@@ -71,7 +56,7 @@
         </section>
 
         <section class="container">
-            <h2>PLANES DE ESTUDIO</h2>
+            <h1>Planes de estudio</h1>
             <div class="tab">
                 <input type="radio" name="abrir" id="acc1"/>
                 <label for="acc1">
@@ -130,18 +115,27 @@
         </section>
 
         <section class="container">
-            <h2>MODALIDADES DE TITULACIÓN</h2>
+            <h1>Modalidades de titulación</h1>
+            <select name="" id="">
+                <option value="">Plan 1</option>
+                <option value="">Plan 2</option>
+            </select>
             <div class="tab">
                 <input type="radio" name="abrir" id="acc1-m"/>
                 <label for="acc1-m">
                     <h2>01</h2>
-                    <h3>Con trabajo Escrito y Replica Oral</h3>
+                    <h3>2119</h3>
                 </label>
-                <div class="content"> 
-                    <p>Esta modalidad cuenta con las siguientes opciones de titulación:</p>
+                <div class="content">
+                    <p>
+                        Requisitos de Titulación
+                     </p>
+             
                      <ul>
-                         <li>Titulacion mediante tesis o tesina y examen profesional</li>
-                         <li>Titulacion por actividad de investigacion en su alternativa de tesis o tesina</li>
+                         <li>100% Creditos</li>
+                         <li>Carta de liberación del servicio social (480hr)</li>
+                         <li>Constancia idioma</li>
+                         <li>Actividades de formación complementaria (480hr)</li>
                      </ul>
                 </div>
             </div>
@@ -149,14 +143,17 @@
                 <input type="radio" name="abrir" id="acc2-m"/>
                 <label for="acc2-m">
                     <h2>02</h2>
-                    <h3>Con Trabajo Escrito, sin Replica Oral </h3>
+                    <h3>1279</h3>
                 </label>
                 <div class="content">
-                    <p>Esta modalidad cuenta con las siguientes opciones de titulación:</p>
+                    <p>
+                        Requisitos de Titulación
+                     </p>
+             
                      <ul>
-                         <li>Titulacion por actividad de apoyo a la docencia </li>
-                         <li>Titulacion por trabajo profesional</li>
-                         <li>Titulacion por actividad de investigacion en su alternativa de articulo academico</li>
+                         <li>100% Creditos</li>
+                         <li>Carta de liberación del servicio social</li>
+                         <li>Constancia idioma</li>
                      </ul>
                 </div>
             </div>
@@ -164,30 +161,25 @@
                 <input type="radio" name="abrir" id="acc3-m"/>
                 <label for="acc3-m">
                     <h2>03</h2>
-                    <h3>Sin Trabajo Escrito</h3>
+                    <h3>8082</h3>
                 </label>
                 <div class="content">
-                    <p>Esta modalidad cuenta con las siguientes opciones de titulación:</p>
+                    <p>
+                       Requisitos de Titulación
+                    </p>
+            
                     <ul>
-                        <li>Titulacion mediante examen general de conocimientos externo</li>
-                        <li>Titulacion por totalidad de creditos y alto nivel academico</li>
-                        <li>Titulacion mediante estudios de posgrado</li>
-                        <li>Titulacion por semestre adicional</li>
-                        <li>Titulacion por cursos a diplomas de educacion continua</li>
+                        <li>100% Creditos</li>
+                        <li>Carta de liberación del servicio social</li>
                     </ul>
         
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>¿Requieres más información?</h2>
-            <p>Consultala <a href="https://www.aragon.unam.mx/fes-aragon/#!/oferta-academica/licenciaturas/computacion-titulacion" target="_blank" rel="noopener noreferred">aquí</a></p>
-        </section>
-
         <footer>
-            <p>Facultad de Estudios Superiores Aragón</p>
-            <p>"Por mi raza hablará el espíritu"</p>
+            <p>Nombre del Estudiante | Asesor: Nombre del Asesor | Universidad</p>
+            <p>"Por mi raza hablará el espíritu" - Chagoya</p>
         </footer>
     </main>
 

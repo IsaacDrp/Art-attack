@@ -86,20 +86,6 @@ button {
   gap: 0.8rem;
 }
 
-.menu-bar a{
-  text-decoration: none;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.menu-bar a:visited{
-  color: #fff;
-}
-
-
-
 .header-menu h1{
   font-size: 3rem;
   color: #24598e;

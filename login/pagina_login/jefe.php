@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION['tipo_usuario'] !== 'jefe') {
-    header('Location: index.php');
+    header('Location: /');
     exit;
 }
 
@@ -9,7 +9,7 @@ require 'db.php';
 
 if (isset($_POST['logout'])) {
     session_destroy();
-    header('Location: index.php');
+    header('Location: /');
     exit;
 }
 

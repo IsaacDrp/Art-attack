@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="error-message"><?php echo $error; ?></div>
         <?php endif; ?>
 
-        <form action="index.php" method="POST">
+        <form action="./login.php" method="POST">
             <label for="usuario">Usuario:</label>
             <input type="text" id="usuario" name="usuario" required><br>
 
