@@ -2,6 +2,9 @@
 INSERT INTO usuarios_ico (usuario, apellido_p, apellido_m, nombre, password, tipo_usuario) 
 VALUES 
 ('319008858', 'Cruz', 'Sanchez', 'Cristian Jair', 'pass123', 'estudiante'),
+('319110421', 'Alva', 'Castiilo', 'Alejandro', 'contraseña', 'estudiante'),
+('319212454', 'Dominguez', 'Rodriguez', 'Isacc', 'pass321', 'estudiante'),
+('319008858', 'Hernandez', 'Rubio', 'Daira Sayuri', 'passsayu', 'estudiante'),
 ('318563421', 'Ramirez', 'Gonzalez', 'Maria', 'pass121', 'estudiante');
 
 -- Administradores
